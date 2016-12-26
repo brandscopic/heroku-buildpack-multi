@@ -8,7 +8,7 @@ RESET='\033[0m'
 echo -e "${YELLOW}WARNING: This buildpack is no longer maintained by ddollar and forked in December 2016 to be hosted on Brandscopic Github."
 echo -e
 echo -e "When possible, look into Heroku's multiple buildpack support: https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app"
-echo "and potentially eliminate the need for this buildpack (though it is nice to set the buildpack settings in the .buildpacks config file)."
+echo -e "and potentially eliminate the need for this buildpack (though it is nice to set the buildpack settings in the .buildpacks config file).${RESET}"
 
 function indent() {
   c='s/^/       /'
